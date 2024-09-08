@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: url('../cursor.png'),auto;
+}
+
+body {
+  background: #0B2434;
+}
+
+.App {
+  width: 35%;
+  height: 55vh;
+  margin: 120px auto;
+  box-shadow: 0px 0px 6px 2px gray;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  background: #F5F5F5;
+}
+
+header h1 {
+  margin-bottom: 7px;
+}
+
+.container {
+  width: 80%;
+  height: 55%;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+
+.container div {
+  width: 14%;
+  height: 23%;
+  margin: 3%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: url('../cursor\ \(1\).png'), auto;
+}
+
+.App .congratulation {
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 25px;
+  text-transform: uppercase;
+  background-color: #5035FF;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  display: none;
+  cursor: url('../cursor\ \(1\).png'), auto;
+}
+
+.container .active {
+  background: #59E391;
+}
+
+button {
+  font-family: Karla;
+  font-size: 16.38px;
+  font-weight: 700;
+  line-height: 19.15px;
+  text-align: center;
+  background: #5035FF;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: url('../cursor\ \(1\).png'), auto;
+}
+
+@media (max-width:955px) {
+  .App {
+    width: 40%;
+  }
+}
+
+@media (max-width:839px) {
+  .App {
+    width: 50%;
+  }
+}
+
+@media (max-width:671px) {
+  .App {
+    width: 60%;
+  }
+}
+
+
+@media (max-width:563px) {
+  .App {
+    width: 70%;
+  }
+}
+
+@media (max-width:482px) {
+  .App {
+    width: 90%;
+  }
+}
+
+
